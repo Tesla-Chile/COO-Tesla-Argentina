@@ -18,7 +18,7 @@ const defaults = {
   maintenanceCount: 3,
   maintenanceCost: 350000,
   permit: 1000000,
-  teslaPermit: 220000,
+  teslaPermit: 0,
   insurance: 0,
   teslaInsurance: 0,
 };
