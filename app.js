@@ -176,8 +176,8 @@ function updateControls() {
   const teslaModel = teslaModels[state.teslaModel];
   nodes.kmOutput.textContent = `${number.format(state.kmYear)} km`;
   nodes.efficiencyOutput.textContent = `${number.format(state.efficiency)} km/L`;
-  nodes.fuelPriceOutput.textContent = `${ars.format(state.fuelPrice)} ARS/L`;
-  nodes.kwhOutput.textContent = `${ars.format(state.kwhPrice)} ARS/kWh`;
+  nodes.fuelPriceOutput.textContent = `${ars.format(state.fuelPrice)}/L`;
+  nodes.kwhOutput.textContent = `${ars.format(state.kwhPrice)}/kWh`;
   nodes.teslaEfficiencyOutput.textContent = `${efficiencyNumber.format(teslaModel.efficiency)} km/kWh`;
   nodes.maintenanceCountOutput.textContent = number.format(state.maintenanceCount);
   nodes.maintenanceCostOutput.textContent = compactArs(state.maintenanceCost);
